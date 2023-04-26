@@ -88,7 +88,7 @@ const pokemon = [
 
 app.get('/', (req, res) => {
     const number = Math.floor(Math.random() * pokemon.length);
-    res.send(pokemon[number].image + "<br>" + pokemon[number].sentence);
+    res.send(pokemon[number].image + "<br>" + pokemon[number].sentence + " - Container Id: " + os.hostname());
 });
 
 app.get('/:id', (req, res) => {
