@@ -21,7 +21,7 @@ jobs:
       run: |
         docker login -u $DOCKER_USER -p $DOCKER_PASS
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag amchp/express-randomquotes:latest
+      run: docker build . --file Dockerfile --tag amchp/teis_taller2:latest
     - name: Docker Push
-      run: docker push amchp/express-randomquotes
+      run: docker push amchp/teis_taller2
 
