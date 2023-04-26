@@ -1,0 +1,22 @@
+{
+  "name": "randomquotes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amchp/tutoriales-express.git"
+  },
+  "author": "Alejandro Mc Ewen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amchp/tutoriales-express/issues"
+  },
+  "homepage": "https://github.com/amchp/tutoriales-express#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
